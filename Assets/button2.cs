@@ -7,7 +7,6 @@ public class button2 : MonoBehaviour
     [SerializeField] Counter counter;
     public button1 Button1;
     public Text question;
-
     public void OnClick()
     {
         question.text = counter.Questions[counter.levelQuestions];
